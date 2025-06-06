@@ -1,0 +1,16 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: YOUR CLIENT ID GOES HERE
+            client-secret: YOUR CLIENT SECRET GOES HERE
+            accessTokenUrl:
+            userAuthorizationUrl:
+            tokenName:
+            authneticationScheme:
+            clientAUthenticationScheme:
+      resource:
+        userInfoUri:
+
